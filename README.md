@@ -91,4 +91,130 @@ I've performed analysis on all 4 data files.
 [26. How many unique types of crime committed on the gas station and what they are? Show them with their count.](#h26)<br>
 
 ##### Now I'll describe the project in detail with screen shots.
+
+
+### 1. Data Reading:
+First of all I read data from CSV files that I have downloaded from kaggle and created its data frame.
+89
+
+### 2. Data Understanding:
+Then I started understanding data by applying basic pandas statistical methods on the data frame.
+90-93
+### 3. Data Cleaning:
+Now I prepared data for analysis by removing unnecessary columns that exist in the above table(data frame) and by filling missing values was exist in data frame.
+
+####                                     Dropping Unncessary Columns
+94
+####                                     Handling Missing Values
+95
+
+
+###### After cleaning data, I started EDA to find interesting insights exist in the data. I'll show all of them with screen shots.
+
+
+
+1. Create a data frame that shows the total number of crimes reported in each year.
+96
+
+
+2. Make a line and bar charts that show the total number of crimes reported in each year.
+
+97,98
+
+3. Find the year in which the maximum number of crimes are reported.
+
+
+
+4. Find the year in which the minimum number of crimes are reported.
+
+
+
+5. Find how many unique crimes recorded from 2001 to 2017 and what they are.
+
+
+
+6. How many Thefts (crime) and what are their different types of recorded with their count?
+
+
+
+7. Find for one primary type how many descriptions are there in the table.
+
+
+
+8. Find the total number of arrest are done.](#h8)<br>
+
+
+
+9. Create a data frame that shows the number of arrests each year.
+
+
+
+10. Find how much unique crime location is recorded from 2001 to 2017 and what they are. Show them with their count.
+
+
+
+11. Find the number of districts in which crime recorded and also show them with their count.
+
+
+
+12. Make a summary of everything related to crime like total crimes, total arrests, total unique crime types, etc. Also, make a data frame to show that summary.
+
+
+
+13. Create a data frame that shows the summary of unique crimes committed with their count.
+
+
+
+14. Make a data frame that shows the complete summary of each crime type.
+
+
+
+15. Make a pie chart to show the proportion of each unique crime reported in all crimes.
+
+
+
+16. Make a bar chart to show the proportion of each unique crime reported in all crimes.
+
+
+
+17. Make a donut chart to show the proportion of each unique crime reported in all crimes.
+
+
+
+18. Make a data frame and show all types of crime in that data frame according to their percentages then make its pie and bar charts.
+
+114-116
+
+
+19. It is commonly said that crime rate is inversely proportional to arrest means if arrest goes up crime rate goes down and if arrest goes down then crime goes up, so now with the help of line and bar chart you have to prove that crime rate is inversely proportional to arrest.
+117, 118
+
+
+20. Create a data frame that shows the summary of total crimes each year and total arrest each year.
+
+
+
+21. What is the relation between crime and arrest? (Find correlation b/w crime and arrest)
+
+
+
+22. Which 3 crimes committed most of the time in 2008?
+
+
+
+23. List top 5 blocks where most of the crimes committed with their districts, community area name & count of a crime.
+
+
+
+24. Make a data frame that shows the top 5 districts where most of a crime committed.
+
+
+
+25. Make a data frame that shows the top 5 community areas where most of a crime committed.
+
+
+
+26. How many unique types of crime committed on the gas station and what they are? Show them with their count.
+
+
  
