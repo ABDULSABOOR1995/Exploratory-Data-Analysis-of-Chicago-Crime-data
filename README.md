@@ -89,4 +89,6 @@ I've performed analysis on all 4 data files.
 [24. Make a data frame that shows the top 5 districts where most of a crime committed.](#h24)<br>
 [25. Make a data frame that shows the top 5 community areas where most of a crime committed.](#h25)<br>
 [26. How many unique types of crime committed on the gas station and what they are? Show them with their count.](#h26)<br>
+
+##### Now I'll describe the project in detail with screen shots.
  
