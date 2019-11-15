@@ -92,13 +92,18 @@ I've performed analysis on all 4 data files.
 
 ##### Now I'll describe the project in detail with screen shots.
 
-
+<a id='hh1'></a>
 ### 1. Data Reading:
 First of all I read data from CSV files that I have downloaded from kaggle and created its data frame.
 <br><br><br>
 ![Screenshot_89](https://user-images.githubusercontent.com/46135898/68811915-9b149d00-0693-11ea-9b14-1144043b23b7.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+
+<a id='hh2'></a>
 ### 2. Data Understanding:
 Then I started understanding data by applying basic pandas statistical methods on the data frame.
 
@@ -112,6 +117,11 @@ Then I started understanding data by applying basic pandas statistical methods o
 ![Screenshot_93](https://user-images.githubusercontent.com/46135898/68811924-a071e780-0693-11ea-8c11-eaca7a841fc1.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+
+<a id='hh3'></a>
 ### 3. Data Cleaning:
 Now I prepared data for analysis by removing unnecessary columns that exist in the above table(data frame) and by filling missing values was exist in data frame.
 
@@ -127,16 +137,24 @@ Now I prepared data for analysis by removing unnecessary columns that exist in t
 ![Screenshot_95](https://user-images.githubusercontent.com/46135898/68811928-a2d44180-0693-11ea-8ae7-81d491e848b6.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+
 ###### After cleaning data, I started EDA to find interesting insights exist in the data. I'll show all of them with screen shots.
 
 
-
+<a id='h1'></a>
 <b>1. Create a data frame that shows the total number of crimes reported in each year.</b>
 
 <br><br><br>
 ![Screenshot_96](https://user-images.githubusercontent.com/46135898/68811929-a4056e80-0693-11ea-965c-090d0182c094.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h2'></a>
 <b>2. Make a line and bar charts that show the total number of crimes reported in each year.</b>
 
 <br><br><br>
@@ -145,96 +163,161 @@ Now I prepared data for analysis by removing unnecessary columns that exist in t
 ![Screenshot_98](https://user-images.githubusercontent.com/46135898/68811941-a667c880-0693-11ea-97c0-1c48245b293d.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h3'></a>
 <b>3. Find the year in which the maximum number of crimes are reported.</b>
 
 <br><br><br>
 ![Screenshot_99](https://user-images.githubusercontent.com/46135898/68811943-a798f580-0693-11ea-84c7-dea18a8a855c.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h4'></a>
 <b>4. Find the year in which the minimum number of crimes are reported.</b>
 
 <br><br><br>
 ![Screenshot_100](https://user-images.githubusercontent.com/46135898/68811944-a8ca2280-0693-11ea-9e78-8f48b0aec8bc.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h5'></a>
 <b>5. Find how many unique crimes recorded from 2001 to 2017 and what they are.</b>
 
 <br><br><br>
 ![Screenshot_101](https://user-images.githubusercontent.com/46135898/68811946-a9fb4f80-0693-11ea-9080-645847869590.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h6'></a>
 <b>6. How many Thefts (crime) and what are their different types of recorded with their count?</b>
 
 <br><br><br>
 ![Screenshot_102](https://user-images.githubusercontent.com/46135898/68811949-ab2c7c80-0693-11ea-8152-df5472b10c41.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h7'></a>
 <b>7. Find for one primary type how many descriptions are there in the table.</b>
 
 <br><br><br>
 ![Screenshot_103](https://user-images.githubusercontent.com/46135898/68811952-ac5da980-0693-11ea-8664-6faadde99491.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h8'></a>
 <b>8. Find the total number of arrest are done.](#h8)<br></b>
 
 <br><br><br>
 ![Screenshot_104](https://user-images.githubusercontent.com/46135898/68811971-b384b780-0693-11ea-841e-faf9c7cb7c56.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h9'></a>
 <b>9. Create a data frame that shows the number of arrests each year.</b>
 
 <br><br><br>
 ![Screenshot_105](https://user-images.githubusercontent.com/46135898/68811974-b54e7b00-0693-11ea-9759-772118dd2ecc.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h10'></a>
 <b>10. Find how much unique crime location is recorded from 2001 to 2017 and what they are. Show them with their count.</b>
 
 <br><br><br>
 ![Screenshot_106](https://user-images.githubusercontent.com/46135898/68811977-b67fa800-0693-11ea-8b04-78824356ba4c.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h11'></a>
 <b>11. Find the number of districts in which crime recorded and also show them with their count.</b>
 
 <br><br><br>
 ![Screenshot_107](https://user-images.githubusercontent.com/46135898/68811982-b8496b80-0693-11ea-8fd1-e4741fac3f31.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h12'></a>
 <b>12. Make a summary of everything related to crime like total crimes, total arrests, total unique crime types, etc. Also, make a data frame to show that summary.</b>
 
 <br><br><br>
 ![Screenshot_108](https://user-images.githubusercontent.com/46135898/68811988-baabc580-0693-11ea-9b24-468a5693273d.png)
 <br><br><br
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h13'></a>
 <b>13. Create a data frame that shows the summary of unique crimes committed with their count.</b>
 
 <br><br><br>
 ![Screenshot_109](https://user-images.githubusercontent.com/46135898/68811990-bd0e1f80-0693-11ea-80c8-b3df84aa0f20.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h14'></a>
 <b>14. Make a data frame that shows the complete summary of each crime type.</b>
 
 <br><br><br>
 ![Screenshot_110](https://user-images.githubusercontent.com/46135898/68812050-d7e09400-0693-11ea-8a5e-17424861949a.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h15'></a>
 <b>15. Make a pie chart to show the proportion of each unique crime reported in all crimes.</b>
 
 <br><br><br>
 ![Screenshot_111](https://user-images.githubusercontent.com/46135898/68812029-d31be000-0693-11ea-99f4-6bff73379b3c.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+
+<a id='h16'></a>
 <b>16. Make a bar chart to show the proportion of each unique crime reported in all crimes.</b>
 
 <br><br><br>
 ![Screenshot_112](https://user-images.githubusercontent.com/46135898/68812031-d31be000-0693-11ea-999f-0989d787c3d1.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h17'></a>
 <b>17. Make a donut chart to show the proportion of each unique crime reported in all crimes.</b>
 
 <br><br><br>
 ![Screenshot_113](https://user-images.githubusercontent.com/46135898/68812032-d3b47680-0693-11ea-9a47-999f310972cf.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h18'></a>
 <b>18. Make a data frame and show all types of crime in that data frame according to their percentages then make its pie and bar charts.</b>
 
 <br><br><br>
@@ -245,6 +328,10 @@ Now I prepared data for analysis by removing unnecessary columns that exist in t
 ![Screenshot_116](https://user-images.githubusercontent.com/46135898/68812035-d44d0d00-0693-11ea-9a83-051f54e7561b.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h19'></a>
 <b>19. It is commonly said that crime rate is inversely proportional to arrest means if arrest goes up crime rate goes down and if arrest goes down then crime goes up, so now with the help of line and bar chart you have to prove that crime rate is inversely proportional to arrest.</b>
 
 <br><br><br>
@@ -253,42 +340,74 @@ Now I prepared data for analysis by removing unnecessary columns that exist in t
 ![Screenshot_118](https://user-images.githubusercontent.com/46135898/68812037-d4e5a380-0693-11ea-9496-839b68dd5b5f.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h20'></a>
 <b>20. Create a data frame that shows the summary of total crimes each year and total arrest each year.</b>
 
 <br><br><br>
 ![Screenshot_119](https://user-images.githubusercontent.com/46135898/68812038-d4e5a380-0693-11ea-8a37-f77fab2541dd.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h21'></a>
 <b>21. What is the relation between crime and arrest? (Find correlation b/w crime and arrest)</b>
 
+<a id='h'></a>
 <br><br><br>
 ![Screenshot_120](https://user-images.githubusercontent.com/46135898/68812041-d616d080-0693-11ea-9eb3-6662109a58c8.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h22'></a>
 <b>22. Which 3 crimes committed most of the time in 2008?</b>
+
 
 <br><br><br>
 ![Screenshot_121](https://user-images.githubusercontent.com/46135898/68812042-d616d080-0693-11ea-8d4f-a914275c89bd.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h23'></a>
 <b>23. List top 5 blocks where most of the crimes committed with their districts, community area name & count of a crime.</b>
 
 <br><br><br>
 ![Screenshot_122](https://user-images.githubusercontent.com/46135898/68812043-d616d080-0693-11ea-9118-61afdd578338.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h24'></a>
 <b>24. Make a data frame that shows the top 5 districts where most of a crime committed.</b>
 
 <br><br><br>
-![Screenshot_123](https://user-images.githubusercontent.com/46135898/68812045-d6af6700-0693-11ea-9f7d-3fe9ceceabd9.png)
+
+<a id='h'></a>![Screenshot_123](https://user-images.githubusercontent.com/46135898/68812045-d6af6700-0693-11ea-9f7d-3fe9ceceabd9.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='h25'></a>
 <b>25. Make a data frame that shows the top 5 community areas where most of a crime committed.</b>
 
 <br><br><br>
 ![Screenshot_124](https://user-images.githubusercontent.com/46135898/68812046-d747fd80-0693-11ea-8bac-b7abeb618676.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+
+<a id='h26'></a>
 <b>26. How many unique types of crime committed on the gas station and what they are? Show them with their count.</b>
 
 
@@ -296,7 +415,9 @@ Now I prepared data for analysis by removing unnecessary columns that exist in t
 ![Screenshot_125](https://user-images.githubusercontent.com/46135898/68812048-d747fd80-0693-11ea-9b38-e9447afb9099.png)
 <br><br><br>
 
+[Go Back](#goback)
+<br><br><br>
+
+<a id='conclusion'></a>
 # Conclusion:
 In this project I've done exploratory data analysis on <b> Chicago Crime Data</b> and extracted many interesting insights from it.
-
-
